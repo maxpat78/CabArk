@@ -1,0 +1,17 @@
+TECHNICAL CAB LIMITS
+====================
+
+Max CAB unit size:  	 		4GiB - 1 byte
+Max file size: 				4GiB - 1 byte
+Max folder size:			2047 MiB (65535 CFDATA blocks x 32KiB)
+Max folders per CAB unit:		65535 - 3
+Max files per CAB unit: 		65535
+Max CAB units in a set:			65535
+Max item pathname size:			255
+
+Min CAB unit size in a set:		50000 bytes
+
+
+So, with a CAB set, we can store more than 65535 files using more folders and CAB units.
+
+But we can't overcome in any way the 4GiB per-file limit, and the storable pathname limited to 255 bytes!

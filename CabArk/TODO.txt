@@ -1,0 +1,9 @@
+TODO
+====
+
+manage reserved areas in folders, blocks
+better protection against exception on I/O?
+cabinet sets
+build a folder with temp files and assemble cabinet/units like cabarc?
++ to add folders
+@ to read input files list
